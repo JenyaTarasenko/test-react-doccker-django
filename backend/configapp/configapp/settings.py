@@ -127,6 +127,7 @@ SPECTACULAR_SETTINGS = {
 CORS_ALLOWED_ORIGINS = [
     'http://127.0.0.1:8001',
     'http://localhost:5173',  # Адрес React-приложения
+    "http://localhost:3000", 
 ]
 CORS_ALLOW_ALL_ORIGINS = True
 
