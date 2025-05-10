@@ -131,9 +131,9 @@ CORS_ALLOWED_ORIGINS = [
 CORS_ALLOW_ALL_ORIGINS = True
 
 
-STATICFILES_DIRS = [
-    BASE_DIR / 'frontend' / 'dist' / 'assets',
-]
+# STATICFILES_DIRS = [
+#     BASE_DIR / 'frontend' / 'dist' / 'assets',
+# ]
 STATIC_URL = '/static/'
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
 
