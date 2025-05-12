@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import FirstPage from './components/firstPage/firstPage';
 import ApartmentList from './components/ApartmentList/ApartmentList';
-import ListSearch from './components/ListSearch/ListSearch';
+// import ListSearch from './components/ListSearch/ListSearch';
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
     <>
      <FirstPage />
      <ApartmentList />
-     <ListSearch />
+     {/* <ListSearch /> */}
     </>
   )
 }
